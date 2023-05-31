@@ -1,0 +1,30 @@
+@mixin font_barlow {
+    @font-face {
+        font-family: barlow, sans-serif;
+        src: url(font/barlow/Barlow-Regular.ttf);
+    }
+    font-style: normal;
+    font-weight: 600;
+}
+
+@mixin font_fraunces {
+    @font-face {
+        font-family: fraunces, sans-serif;
+        src: url(font/fraunces/Fraunces_9pt_Soft-Regular.ttf);
+    }
+    font-weight: 900;
+    font-style: normal;
+}
+
+@mixin flex_center_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin flex_center_row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
